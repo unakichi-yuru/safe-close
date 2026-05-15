@@ -38,7 +38,7 @@
         <nav class="hidden items-center gap-7 text-sm font-medium text-slate-600 sm:flex">
           <a class="hover:text-aqua" href="#features">機能</a>
           <a class="hover:text-aqua" href="#usecases">おすすめ</a>
-          <a class="hover:text-aqua" href="#privacy">プライバシー</a>
+          <a class="hover:text-aqua" href="#privacy-policy">プライバシー</a>
         </nav>
       </div>
     </header>
@@ -183,7 +183,7 @@
         </div>
       </section>
 
-      <section id="privacy" class="bg-ink py-14 text-white">
+      <section class="bg-ink py-14 text-white">
         <div class="mx-auto flex max-w-6xl flex-col gap-6 px-5 md:flex-row md:items-center md:justify-between">
           <div>
             <h2 class="text-2xl font-black tracking-normal">ブラウザを閉じる最後の一手まで、あなたの手の中に。</h2>
@@ -199,13 +199,114 @@
           </a>
         </div>
       </section>
+
+      <section id="privacy-policy" class="bg-[#fbfcfa] py-16 md:py-20">
+        <div class="mx-auto max-w-5xl px-5">
+          <div class="max-w-3xl">
+            <p class="text-sm font-bold uppercase text-aqua">Privacy Policy</p>
+            <h2 class="mt-2 text-3xl font-black tracking-normal sm:text-4xl">プライバシーポリシー</h2>
+            <p class="mt-4 text-sm text-slate-500">制定日: 2026年5月15日</p>
+            <p class="mt-5 text-lg leading-8 text-slate-600">
+              SafeCloseは、ブラウザのセッション保存、ウィンドウの一括終了、閲覧データの整理を行うChrome拡張機能です。
+              本ポリシーでは、SafeCloseが扱う情報と、その利用方法について説明します。
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-5">
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">1. 基本方針</h3>
+              <p class="mt-3 leading-8 text-slate-600">
+                SafeCloseは、ユーザーのプライバシーを尊重します。本拡張機能は、機能提供に必要な情報をユーザーのブラウザ内に保存します。
+                保存した情報を開発者のサーバーへ送信したり、広告目的で利用したりすることはありません。
+              </p>
+            </article>
+
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">2. 取得・保存する情報</h3>
+              <p class="mt-3 leading-8 text-slate-600">SafeCloseは、以下の情報をブラウザ内のローカルストレージに保存する場合があります。</p>
+              <ul class="mt-4 list-disc space-y-2 pl-6 leading-8 text-slate-600">
+                <li>保存対象のタブ情報: URL、タイトル、ピン留め状態、タブグループ情報</li>
+                <li>保存対象のウィンドウ情報: ウィンドウ数、位置、サイズなどの復元に必要な情報</li>
+                <li>拡張機能の設定情報: デフォルトモード、確認表示、セーフページURL、クリーンモードの削除対象、許可リストなど</li>
+              </ul>
+            </article>
+
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">3. 情報の利用目的</h3>
+              <ul class="mt-4 list-disc space-y-2 pl-6 leading-8 text-slate-600">
+                <li>閉じる前のブラウザセッションを保存し、後から復元できるようにするため</li>
+                <li>通常モード、パニックモード、クリーンモードをユーザー設定に沿って実行するため</li>
+                <li>パニックモードで指定されたセーフページを開くため</li>
+                <li>クリーンモードで、ユーザーが選択した閲覧データを削除するため</li>
+                <li>誤操作防止や使いやすさ向上のため、ユーザー設定を保持するため</li>
+              </ul>
+            </article>
+
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">4. 外部送信・第三者提供について</h3>
+              <p class="mt-3 leading-8 text-slate-600">
+                SafeCloseは、保存したタブ情報、閲覧履歴、設定情報などを外部サーバーへ送信しません。
+                また、取得した情報を第三者へ販売、共有、提供することもありません。
+              </p>
+              <p class="mt-3 leading-8 text-slate-600">
+                本拡張機能は、広告配信、アクセス解析、トラッキングを目的とした外部サービスを使用しません。
+              </p>
+            </article>
+
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">5. クリーンモードによるデータ削除</h3>
+              <p class="mt-3 leading-8 text-slate-600">
+                クリーンモードでは、ユーザーが事前に選択した閲覧データをChromeの機能を使って削除します。
+                削除対象には、閲覧履歴、Cookie、サイトデータ、キャッシュ、ダウンロード履歴、フォームデータが含まれる場合があります。
+              </p>
+              <p class="mt-3 leading-8 text-slate-600">
+                削除対象はユーザーが設定できます。Cookie、キャッシュ、サイトデータについては、許可リストに登録したサイトを削除対象から除外できます。
+              </p>
+            </article>
+
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">6. 利用するChrome権限</h3>
+              <div class="mt-4 grid gap-3 md:grid-cols-3">
+                <div class="rounded-lg bg-mist p-4">
+                  <h4 class="font-black">tabs / windows / tabGroups</h4>
+                  <p class="mt-2 leading-7 text-slate-600">タブ、ウィンドウ、タブグループの保存・復元・一括終了に使用します。</p>
+                </div>
+                <div class="rounded-lg bg-mist p-4">
+                  <h4 class="font-black">storage</h4>
+                  <p class="mt-2 leading-7 text-slate-600">保存したセッション情報やユーザー設定をブラウザ内に保存するために使用します。</p>
+                </div>
+                <div class="rounded-lg bg-mist p-4">
+                  <h4 class="font-black">browsingData</h4>
+                  <p class="mt-2 leading-7 text-slate-600">クリーンモードで、ユーザーが選択した閲覧データを削除するために使用します。</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-black">7. 情報の管理・ポリシーの変更・お問い合わせ</h3>
+              <p class="mt-3 leading-8 text-slate-600">
+                SafeCloseが保存する情報は、ユーザーのブラウザ内に保管されます。保存済みセッションや設定は、拡張機能の操作、Chromeの拡張機能管理画面、
+                またはブラウザデータの削除によって削除できる場合があります。
+              </p>
+              <p class="mt-3 leading-8 text-slate-600">
+                本ポリシーの内容は、機能追加、法令変更、運用上の必要に応じて変更されることがあります。重要な変更がある場合は、本ページ上でお知らせします。
+              </p>
+              <p class="mt-3 leading-8 text-slate-600">
+                お問い合わせは
+                <a class="font-bold text-aqua hover:text-[#168e8f]" href="mailto:unakichiyuru@gmail.com">unakichiyuru@gmail.com</a>
+                までご連絡ください。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-white">
       <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
         <p>© 2026 Unakichi. All rights reserved.</p>
         <div class="flex gap-5">
-          <a class="hover:text-aqua" href="./privacy.html">プライバシーポリシー</a>
+          <a class="hover:text-aqua" href="#privacy-policy">プライバシーポリシー</a>
           <a class="hover:text-aqua" href="mailto:unakichiyuru@gmail.com">お問い合わせ</a>
         </div>
       </div>
